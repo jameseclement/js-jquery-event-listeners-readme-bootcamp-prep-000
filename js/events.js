@@ -9,8 +9,7 @@ function getIt() {
 function frameIt() {
   
   $('img').on('load', function(){
-  var element =  document.getElementsByTagName('img');
-  element.classList.add("tasty")
+  $('img').addClass("tasty")
   })
 
 }
