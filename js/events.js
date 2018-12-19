@@ -14,7 +14,9 @@ function frameIt() {
 }
 
 function pressIt(){
-  $
+  $('#typing').on('keypress', function(key){
+    if(key)
+  })
 }
 
 $(document).ready(function(){
